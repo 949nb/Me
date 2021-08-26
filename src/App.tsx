@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { FC } from 'react';
+import './Styles.scss';
 
-function App() {
-  return (
+const App: FC = () => (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h1>Nav</h1>
+        <h1>首页</h1>
+        <h1>关于我</h1>
+        <div>
+            <h1>个人项目</h1>
+            UI库、CSS比卡丘、五子棋、记账本、leeCode解题、
+        </div>
+        <div>
+            <h1>找到我</h1>
+            GitHub、Bilibili、微博、语雀、邮箱
+
+        </div>
+        <div>
+            <h1>Footer</h1>
+            使用了：React、TypeScript、EsLint、Antd、Sass
+        </div>
     </div>
-  );
-}
+);
 
 export default App;
