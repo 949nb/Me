@@ -6,7 +6,7 @@ export const ProjectWrapper = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  min-height: 60vh;
+  max-height: 60vh;
   background: ${ BackgroundColor };
   padding: 0 ${LeftPadding};
   > .title {
