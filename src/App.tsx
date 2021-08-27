@@ -5,6 +5,7 @@ import { Main } from './sections/Main/Main'
 import { About } from './sections/About/About'
 import { Projects } from './sections/Projects/Projects'
 import { Find } from './sections/FindMe/Find'
+import { Footer } from './sections/Footer/Footer'
 
 const App: FC = () => (
     <div className="App">
@@ -14,10 +15,7 @@ const App: FC = () => (
         <About />
         <Projects />
         <Find />
-        <div>
-            <h1>Footer</h1>
-            使用了：React、TypeScript、EsLint、Antd、Sass
-        </div>
+        <Footer />
     </div>
 );
 
