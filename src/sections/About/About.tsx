@@ -1,17 +1,20 @@
 import React from 'react'
 import { AboutWrapper } from './StyleComponent'
+import together from 'assets/img/api-beta.webp'
 
 export const About: React.FC = () => {
     return (
         <AboutWrapper>
             <div className={ 'about-me-item' }>
                 <div className={ 'left' }>
-                    <h1>😶‍🌫️关于我😶‍🌫️</h1>
+                    <img src={ together } alt="关于我图片" />
                 </div>
                 <div className={ 'right' }>
-
-                    <h2>
-                        Hi~😁 我是⼀个充满活⼒、对前端由衷热爱、善于发现问题的前端⼯程师。👨‍💻<br/> 喜欢写
+                    <h1>😶‍🌫️关于我😶‍🌫️</h1>
+                    <p>
+                        Hi~😁 我是⼀个充满活⼒、对前端由衷热爱的前端⼯程师。👨‍💻
+                        <br/>
+                        喜欢写
                         <a
                             href="https://www.notion.so/hanyu9/ZHY-Blogs-List-8f3385cbe42742b4bb2bb14d025ead4d"
                             target="&quot;_blank&quot"
@@ -19,11 +22,11 @@ export const About: React.FC = () => {
                                 color: 'indianred',
                                 borderBottom: '2px solid indianred'
                             } }
-                        >博客</a>
-                        总结技术问题，之前主要是做ToB的项目。熟练掌握ES6规范、HTML5和CSS3，能运用模块化的方式编程，
-                        熟练掌握Vue全家桶的应用，对React也有一定的了解，正在深入ing...
-                        了解Git、HTTP、WebPack的基本知识，熟练使用Vim、Markdown工具,有良好的学习能力和强烈的进取心。
-                    </h2>
+                        >博客</a>总结一些自己所想，主题除了💰技术还有❤️生活～
+                        <br/>
+                        下班喜欢打打羽毛球🏸️，看看书，扯扯🥚～😆 也喜欢数码产品 Apple🍎 YYDS！
+                        <br/>
+                    </p>
                 </div>
             </div>
         </AboutWrapper>

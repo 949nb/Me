@@ -8,37 +8,35 @@ import typeScriptLogo from 'assets/img/FooterSvg/typescript.png'
 import styledComponentsLogo from 'assets/img/FooterSvg/logo.png'
 import { Tooltip } from 'antd'
 
+export const logoList = [
+    {
+        l: antdLogo,
+        s: 'Antd'
+    },
+    {
+        l: eslintLogo,
+        s: 'Eslint'
+    },
+    {
+        l: reactLogo,
+        s: 'React'
+    },
+    {
+        l: sassLogo,
+        s: 'Sass'
+    },
+
+    {
+        l: typeScriptLogo,
+        s: 'TypeScript'
+    },
+    {
+        l: styledComponentsLogo,
+        s: 'Styled-Components'
+    }
+]
 export const Footer: React.FC = () => {
-    const logoList = [
-        {
-            l: antdLogo,
-            s: 'Antd'
-        },
-        {
-            l: eslintLogo,
-            s: 'Eslint'
-        },
-        {
-            l: reactLogo,
-            s: 'React'
-        },
-        {
-            l: sassLogo,
-            s: 'Sass'
-        },
 
-        {
-            l: typeScriptLogo,
-            s: 'TypeScript'
-        },
-        {
-            l: styledComponentsLogo,
-            s: 'Styled-Components'
-        },
-
-
-    ]
-    console.log(logoList)
     return (
         <FooterWrapper>
             <div>

@@ -30,6 +30,11 @@ export const AboutWrapper = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
+      p {
+        font-weight: bold;
+        font-size: 2rem;
+      }
     }
   }
 
@@ -43,6 +48,10 @@ export const AboutWrapper = styled.div`
       > .left {
         padding: 0;
         margin: 0;
+        img {
+          height: 25rem;
+          width: 34.4rem;
+        }
         > h1 {
           font-size: 2rem;
         } 

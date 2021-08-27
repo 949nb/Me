@@ -30,7 +30,7 @@ export const MainWrapper = styled.div`
   // 移动端
   @media only screen and (max-width: ${ ScreenMaxWidth }) {
     flex-direction: column;
-    padding-left: ${ LeftPadding };
+    padding: 0 ${ LeftPadding };
     .introduce-myself {
       font-size: 3rem;
       padding-left: 0;

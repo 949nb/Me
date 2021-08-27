@@ -9,7 +9,6 @@ import { Footer } from './sections/Footer/Footer'
 
 const App: FC = () => (
     <div className="App">
-
         <NavBar />
         <Main />
         <About />

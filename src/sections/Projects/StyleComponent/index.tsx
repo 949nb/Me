@@ -36,7 +36,7 @@ export const ProjectWrapper = styled.div`
       }
       &:hover {
         box-shadow: ${BoxShadow};
-        z-index: 10;
+        z-index: 1;
       }
     }
   }
