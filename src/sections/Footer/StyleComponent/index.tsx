@@ -3,7 +3,7 @@ import { BoxShadow } from '../../../assets/CommonScss'
 
 export const FooterWrapper = styled.div`
   height: auto;
-  padding: 2rem 0;
+  padding: 2rem 4rem;
   background: #000000;
   box-shadow: ${BoxShadow};
   display: flex;

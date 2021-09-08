@@ -3,6 +3,7 @@ import { BackgroundColor, BoxShadow, ScreenMaxWidth } from 'assets/CommonScss'
 
 export const AboutWrapper = styled.div`
   height: 50vh;
+  margin-bottom: 3rem;
   background: ${ BackgroundColor };
   box-shadow: ${ BoxShadow };
   display: flex;

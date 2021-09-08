@@ -40,12 +40,12 @@ export const Footer: React.FC = () => {
     return (
         <FooterWrapper>
             <div>
-                <span>第一次创建个人主页成功👏(其实几年前刚接触前端时候也写过一个...惨不忍睹...)，这个网站使用了：</span>
+                <span>第二次重构个人主页成功👏，这个网站使用了：</span>
                 <br/>
                 <span>
                     {
                         logoList.map(logo =>
-                            <Tooltip title={ logo.s }>
+                            <Tooltip title={ logo.s } key={Math.random()}>
                                 <img src={ logo.l } alt={ logo.s }/>
                             </Tooltip>)
                     }

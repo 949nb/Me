@@ -7,8 +7,6 @@ import { ReactComponent as Weibo } from 'assets/img/weibo.svg'
 import { ReactComponent as Yuque } from 'assets/img/Yuque.svg'
 import { ReactComponent as Notion } from 'assets/img/Notion.svg'
 
-import { Space } from 'antd'
-
 export const Find: React.FC = () => {
     return (
         <FindWrapper>
